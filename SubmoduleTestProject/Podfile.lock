@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: d756987eecb385d05eaa416cffc19959ed5931e6
+PODS:
+  - SubmoduleTestCore (0.2)
+  - SubmoduleTestFeature01 (0.5):
+    - SubmoduleTestCore (~> 0.2)
+
+DEPENDENCIES:
+  - SubmoduleTestFeature01 (~> 0.5)
+
+SPEC REPOS:
+  trunk:
+    - SubmoduleTestCore
+    - SubmoduleTestFeature01
+
+SPEC CHECKSUMS:
+  SubmoduleTestCore: d081e6a40f0bcd004e38563379554bd2e2c6b8cf
+  SubmoduleTestFeature01: bed424e0f4a53b8557cfa980974a509c46781508
+
+PODFILE CHECKSUM: 1851641cad766b769daf6882227791165e89f03b
 
 COCOAPODS: 1.8.3

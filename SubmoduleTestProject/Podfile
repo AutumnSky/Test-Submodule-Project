@@ -6,7 +6,8 @@ target 'SubmoduleTestProject' do
   use_frameworks!
 
   # Pods for SubmoduleTestProject
-
+  pod 'SubmoduleTestFeature01', '~> 0.5'
+  
   target 'SubmoduleTestProjectTests' do
     inherit! :search_paths
     # Pods for testing
